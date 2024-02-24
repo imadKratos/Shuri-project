@@ -1,0 +1,99 @@
+body {
+  background-color: rgba(152, 190, 29, 1);
+  width: fit-content;
+}
+
+.bigbox {
+  width: 1576px;
+  height: 1018px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 45px;
+  position: relative;
+}
+
+.Titlecontainer {
+  position: relative;
+  top: -45px;
+  left: 70px;
+}
+
+.plussigns {
+  position: absolute;
+  top: 80px;
+  left: 115px;
+}
+
+.plussigns1 {
+  position: absolute;
+  bottom: 80px;
+  right: 115px;
+}
+
+.shuritourscontainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 90px;
+}
+
+.tourscontainer {
+  display: flex;
+  position: relative;
+}
+
+.bus1 {
+  position: absolute;
+  top: 19px;
+  left: -25px;
+}
+
+.bus2 {
+  position: absolute;
+  top: 21px;
+  left: 20px;
+}
+
+.landmark {
+  width: 58px;
+  margin-bottom: 10px;
+  margin-left: 515px;
+}
+
+.shuri {
+  width: 564px;
+  margin-bottom: 60px;
+}
+
+.tours {
+  width: 574px;
+}
+
+.subtitlecontainer {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.subtitle {
+  width: 110px;
+  margin-left: 15px;
+}
+
+.subtitle2 {
+  width: 132px;
+  margin-left: 15px;
+}
+
+.subtitle3 {
+  width: 143px;
+  margin-left: 15px;
+}
+
+.subtitledot {
+  width: 14px;
+  margin-left: 20px;
+}
