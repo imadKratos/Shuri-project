@@ -1,391 +1,413 @@
 body {
-  font-family: Poppins, arial;
-  margin: 0;
-  padding-bottom: 200px;
-  width: fit-content;
+	font-family: Poppins, arial;
+	margin: 0;
+	padding-bottom: 200px;
+	width: fit-content;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .header {
-  display: flex;
-
+	display: flex;
 }
 
 .navigation {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 81px;
-  margin-left: 245px;
-  font-weight: 500;
-  width: 590px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 81px;
+	margin-left: 245px;
+	font-weight: 500;
+	width: 590px;
 }
 
 a {
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-  color: black;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
 }
 
 .tours {
-  color: #98BE1D;
+	color: #98be1d;
 }
 
 .shurilogo {
-  width: 89px;
-  height: 80px;
-  margin-top: 55px;
-  margin-left: 167px;
+	width: 89px;
+	height: 80px;
+	margin-top: 55px;
+	margin-left: 167px;
 }
 
 .tourbuscontainer {
-  position: relative;
-  top: 30px;
-  left: 140px;
+	position: relative;
+	top: 30px;
+	left: 140px;
 }
 
 .tourbusboxtooltip {
-  display: flex;
-  position: absolute;
-  top: 86px;
-  left: 180px;
+	display: flex;
+	position: absolute;
+	top: 86px;
+	left: 180px;
 }
 
 .tooltipicon {
-  width: 24px;
+	width: 24px;
 }
 
 .tourbusboxtext {
-  margin-left: 12px;
+	margin-left: 12px;
 }
 
-.Destinationcontainer {
-  display: flex;
-  align-items: center;
-  width: 303px;
-  background-color: rgba(255, 255, 255, 0.45);
-  color: white;
-  font-size: 13px;
-  font-weight: 500;
-  border-radius: 8px;
-  padding: 15px 20px;
+.destination-text {
+	position: relative;
+	border-style: none;
+	background-color: rgba(255, 255, 255, 0.45);
+	border-radius: 8px;
+	padding: 20px 50px;
+	width: 290px;
+	font-size: 13px;
+	font-weight: 500;
 }
 
-.tourtypecontainer {
-  display: flex;
-  justify-content: space-between;
-  align-content: start;
-  width: 303px;
-  background-color: rgba(255, 255, 255, 0.45);
-  color: white;
-  font-size: 13px;
-  font-weight: 500;
-  border-radius: 8px;
-  padding: 15px 20px;
-  margin-left: 12px;
+input[type="text"]::placeholder {
+	color: rgb(255, 255, 255);
 }
 
-.tourtypecontainer div {
-  display: flex;
-  align-items: center;
+input:focus {
+	color: aliceblue;
+	border: 1px solid rgba(255, 255, 255, 0.027);
+	outline: none;
 }
 
-.pointingdownicon {
-  width: 15px;
+.tooltipicon2 {
+	position: absolute;
+	top: 15px;
+	left: 18px;
+}
+
+form {
+	margin-left: 10px;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.45);
+	border-radius: 8px;
+	width: 290px;
+}
+
+form label {
+	font-size: 13px;
+	color: white;
+	position: absolute;
+	top: 15px;
+	left: 55px;
+}
+
+form select {
+	position: absolute;
+	top: 17px;
+	left: 250px;
+	background: none;
+	border-style: none;
+	color: rgb(0, 0, 0);
+	width: 50px;
+}
+
+datalist option {
+	color: black;
+}
+
+.tooltipicon {
+	position: absolute;
+	top: 15px;
+	left: 22px;
 }
 
 .searchbuttoncontainer {
-  margin-left: 15px;
+	margin-left: 15px;
 }
 
 .greenbutton {
-  background-color: #98BE1D;
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 8px;
-  border-style: none;
-  padding: 15px 20px;
-  width: 174px;
-  font-family: Poppins, arial;
+	background-color: #98be1d;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 8px;
+	border-style: none;
+	padding: 15px 20px;
+	width: 174px;
+	font-family: Poppins, arial;
 }
 
 .tourstitlecontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 100px;
-  margin-left: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	margin-left: 150px;
 }
 
 .tourstitletext1 {
-  font-size: 24px;
-  font-weight: 500;
-  color: rgba(89, 93, 122, 1);
-  margin-right: 40px;
+	font-size: 24px;
+	font-weight: 500;
+	color: rgba(89, 93, 122, 1);
+	margin-right: 40px;
 }
 
 .tourstitletext2 {
-  font-size: 36px;
-  font-weight: 700;
-  color: rgba(48, 48, 48, 1);
+	font-size: 36px;
+	font-weight: 700;
+	color: rgba(48, 48, 48, 1);
 }
 
 .plusreversed {
-  margin-top: -45px;
+	margin-top: -45px;
 }
 
 .Destinationtourscontainer {
-  display: grid;
-  grid-template-columns: 354px 354px 354px;
-  justify-content: center;
-  column-gap: 25px;
-  row-gap: 45px;
-  margin-top: -65px;
-  margin-left: 180px;
+	display: grid;
+	grid-template-columns: 354px 354px 354px;
+	justify-content: center;
+	column-gap: 25px;
+	row-gap: 45px;
+	margin-top: -65px;
+	margin-left: 180px;
 }
 
 .Destinationgrid {
-  box-shadow: 1px 10px 20px rgba(139, 139, 139, 0.118);
-  border-radius: 20px;
+	box-shadow: 1px 10px 20px rgba(139, 139, 139, 0.118);
+	border-radius: 20px;
 }
 
 .Destinationimg {
-  width: 354px;
-  height: 279px;
-  object-fit: cover;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+	width: 354px;
+	height: 279px;
+	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 .Destinationinfo {
-  width: 290px;
-  margin-top: 25px;
-  margin-left: 35px;
+	width: 290px;
+	margin-top: 25px;
+	margin-left: 35px;
 }
 
 .Destinationinfo1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
 }
 
 .Destinationinfo1 span {
-  font-size: 11px;
-  font-weight: 600;
+	font-size: 11px;
+	font-weight: 600;
 }
 
 .Destinationinfo1a {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .Destinationinfo1text {
-  font-size: 14px;
-  font-weight: 600;
-  margin-left: 5px;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 5px;
 }
 
 .Destinationinfo1text2 {
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 3px;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 3px;
 }
 
 .Destinationinfo2 {
-  width: 220px;
-  font-size: 13px;
-  font-weight: 400;
-  margin-top: 6px;
+	width: 220px;
+	font-size: 13px;
+	font-weight: 400;
+	margin-top: 6px;
 }
 
 .viewdetailsbuttoncontainer {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .viewdetailsbutton {
-  background-color: rgb(166, 209, 24);
-  border-style: none;
-  border-radius: 13px;
-  color: white;
-  padding: 20px;
-  width: 100%;
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 40px;
-  margin-bottom: 40px;
+	background-color: rgb(166, 209, 24);
+	border-style: none;
+	border-radius: 13px;
+	color: white;
+	padding: 20px;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .viewdetailsbutton2 {
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(166, 209, 24);
-  border-radius: 13px;
-  color: rgb(166, 209, 24);
-  padding: 20px;
-  width: 100%;
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 40px;
-  margin-bottom: 40px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(166, 209, 24);
+	border-radius: 13px;
+	color: rgb(166, 209, 24);
+	padding: 20px;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .plus {
-  position: absolute;
-  top: 1100px;
-  right: -105px;
+	position: absolute;
+	top: 1100px;
+	right: -105px;
 }
 
 .footernavcontainer {
-  background-color: rgba(249, 247, 254, 1);
-  position: absolute;
-  top: 1810px;
-  left: 600px;
-  width: 264px;
-  height: 70px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 5px 25px;
+	background-color: rgba(249, 247, 254, 1);
+	position: absolute;
+	top: 1810px;
+	left: 600px;
+	width: 264px;
+	height: 70px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px 25px;
 }
 
 .footernavcontainer a {
-  font-size: 22px;
-  font-weight: 600;
-  color: rgba(89, 93, 122, 1);
+	font-size: 22px;
+	font-weight: 600;
+	color: rgba(89, 93, 122, 1);
 }
 
 .subscribeRectanglecontainer {
-  position: absolute;
-  top: 1960px;
-  left: 170px;
+	position: absolute;
+	top: 1960px;
+	left: 170px;
 }
 
 .plusreversed2 {
-  margin-top: 450px;
+	margin-top: 450px;
 }
 
 .shuriinfo {
-  margin-top: 70px;
-  margin-left: 180px;
-  display: grid;
-  grid-template-columns: 146px 146px 146px 146px;
-  column-gap: 160px;
-  align-self: center;
+	margin-top: 70px;
+	margin-left: 180px;
+	display: grid;
+	grid-template-columns: 146px 146px 146px 146px;
+	column-gap: 160px;
+	align-self: center;
 }
 
 .Shurilogofooter {
-  width: 146px;
+	width: 146px;
 }
 
 .Shurilogofootertext {
-  margin-top: 20px;
-  margin-left: 7px;
-  font-size: 12px;
-  font-weight: 500;
-  color: #5E6282;
+	margin-top: 20px;
+	margin-left: 7px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #5e6282;
 }
 .Companycontainer {
-  margin-left: -35px;
+	margin-left: -35px;
 }
 
 .Contactcontainer {
-  margin-left: -75px;
+	margin-left: -75px;
 }
 
 .Companycontainer,
 .Contactcontainer,
 .socialscontainer {
-  margin-top: 18px;
+	margin-top: 18px;
 }
 
 .companyname {
-  font-size: 21px;
-  font-weight: 700;
-  color: black;
-  margin-bottom: 35px;
+	font-size: 21px;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 35px;
 }
 
 .companysubheadings {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 35px;
-  color: #5E6282;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 35px;
+	color: #5e6282;
 }
 
-
 .contactsocialsinfo {
-  margin-top: 35px;
-  line-height: 29px;
-} 
-
+	margin-top: 35px;
+	line-height: 29px;
+}
 
 .companycontact {
-  font-size: 21px;
-  font-weight: 700;
-  color: black;
+	font-size: 21px;
+	font-weight: 700;
+	color: black;
 }
 
 .emailtext,
 .telephonenumber {
-  font-size: 18px;
-  font-weight: 500;
-  margin-left: 10px;
-  color: #5E6282;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 10px;
+	color: #5e6282;
 }
 
-
 .telephonenumber {
-  white-space: nowrap;
+	white-space: nowrap;
 }
 
 .infocontainer {
-  display: flex;
-  line-height: 29px;
+	display: flex;
+	line-height: 29px;
 }
 
 .socialscontainer {
-  margin-left: -70px;
+	margin-left: -70px;
 }
 
 .companysocials {
-  font-size: 21px;
-  font-weight: 700;
-  color: black;
-} 
-
+	font-size: 21px;
+	font-weight: 700;
+	color: black;
+}
 
 .socialsgrid1 {
-  display: flex;
+	display: flex;
 }
 
 .socialsgrid1text {
-  font-size: 18px;
-  font-weight: 500;
-  margin-left: 10px;
-  color: #5E6282;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 10px;
+	color: #5e6282;
 }
 
 .socialsgrid1number {
-  font-size: 16px;
-  font-weight: 500;
-  margin-left: 2px;
-  color: #5E6282;
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 2px;
+	color: #5e6282;
 }
 
 .socialsicon {
-  margin-left: 3px;
+	margin-left: 3px;
 }
 
 .lasttext {
-  font-size: 12px;
-  font-weight: 500;
-  position: absolute;
-  left: 580px;
-  top: 2650px;
-  color:#5E6282;
+	font-size: 12px;
+	font-weight: 500;
+	position: absolute;
+	left: 580px;
+	top: 2650px;
+	color: #5e6282;
 }
-
