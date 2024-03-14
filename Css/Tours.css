@@ -17,9 +17,9 @@ body {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 81px;
-	margin-left: 245px;
+	margin-left: 160px;
 	font-weight: 500;
-	width: 590px;
+	width: 580px;
 }
 
 a {
@@ -37,13 +37,14 @@ a {
 	width: 89px;
 	height: 80px;
 	margin-top: 55px;
-	margin-left: 167px;
+	margin-left: 150px;
 }
 
 .tourbuscontainer {
 	position: relative;
 	top: 30px;
-	left: 140px;
+	left: 110px;
+	display: inline-block;
 }
 
 .tourbusboxtooltip {
@@ -72,12 +73,15 @@ a {
 	font-weight: 500;
 }
 
+.destination-text:focus {
+	height: 55px;
+}
+
 input[type="text"]::placeholder {
 	color: rgb(255, 255, 255);
 }
 
 input:focus {
-	color: aliceblue;
 	border: 1px solid rgba(255, 255, 255, 0.027);
 	outline: none;
 }
@@ -106,16 +110,31 @@ form label {
 
 form select {
 	position: absolute;
-	top: 17px;
-	left: 250px;
-	background: none;
+	top: 18px;
+	left: 255px;
 	border-style: none;
-	color: rgb(0, 0, 0);
-	width: 50px;
+	background: none;
+	color: rgba(0, 0, 0, 0);
+	width: 10px;
+	cursor: pointer;
+	appearance: none;
+	padding: 0 5px;
 }
 
-datalist option {
-	color: black;
+form select:focus {
+	outline: none;
+}
+
+option {
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.selectsvg {
+	position: absolute;
+	top: 20px;
+	left: 255px;
+	width: 15px;
 }
 
 .tooltipicon {
@@ -138,6 +157,7 @@ datalist option {
 	padding: 15px 20px;
 	width: 174px;
 	font-family: Poppins, arial;
+	cursor: pointer;
 }
 
 .tourstitlecontainer {
@@ -145,7 +165,7 @@ datalist option {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 100px;
-	margin-left: 150px;
+	margin-left: 100px;
 }
 
 .tourstitletext1 {
@@ -156,23 +176,25 @@ datalist option {
 }
 
 .tourstitletext2 {
-	font-size: 36px;
+	font-size: 30px;
 	font-weight: 700;
 	color: rgba(48, 48, 48, 1);
 }
 
 .plusreversed {
 	margin-top: -45px;
+	margin-left: 25px;
+	width: 143px;
 }
 
 .Destinationtourscontainer {
 	display: grid;
-	grid-template-columns: 354px 354px 354px;
+	grid-template-columns: 310px 310px 310px;
 	justify-content: center;
 	column-gap: 25px;
 	row-gap: 45px;
 	margin-top: -65px;
-	margin-left: 180px;
+	margin-left: 95px;
 }
 
 .Destinationgrid {
@@ -181,20 +203,21 @@ datalist option {
 }
 
 .Destinationimg {
-	width: 354px;
-	height: 279px;
+	width: 310px;
+	height: 200px;
 	object-fit: cover;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 }
 
 .Destinationinfo {
-	width: 290px;
 	margin-top: 25px;
-	margin-left: 35px;
+	margin-left: 28px;
+	padding-right: 18px;
 }
 
 .Destinationinfo1 {
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: start;
@@ -211,13 +234,13 @@ datalist option {
 }
 
 .Destinationinfo1text {
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 600;
 	margin-left: 5px;
 }
 
 .Destinationinfo1text2 {
-	font-size: 16px;
+	font-size: 13px;
 	font-weight: 700;
 	margin-top: 3px;
 }
@@ -232,19 +255,28 @@ datalist option {
 .viewdetailsbuttoncontainer {
 	display: flex;
 	justify-content: center;
+	margin-left: -12px;
 }
 
 .viewdetailsbutton {
-	background-color: rgb(166, 209, 24);
 	border-style: none;
+	border: 1px solid rgb(166, 209, 24);
+	background-color: white;
 	border-radius: 13px;
-	color: white;
-	padding: 20px;
-	width: 100%;
+	color: rgb(166, 209, 24);
 	font-size: 16px;
 	font-weight: 600;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	padding: 20px;
+	width: 90%;
+	transition: 1s;
+}
+
+.viewdetailsbutton:hover {
+	cursor: pointer;
+	background-color: rgb(166, 209, 24);
+	color: white;
 }
 
 .viewdetailsbutton2 {
@@ -260,23 +292,29 @@ datalist option {
 	margin-bottom: 40px;
 }
 
-.plus {
-	position: absolute;
-	top: 1100px;
-	right: -105px;
-}
-
-.footernavcontainer {
+.Destinationnavcontainer {
 	background-color: rgba(249, 247, 254, 1);
 	position: absolute;
-	top: 1810px;
-	left: 600px;
+	top: 1590px;
+	left: 550px;
 	width: 264px;
 	height: 70px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	padding: 5px 25px;
+}
+
+.Destinationnavcontainer a {
+	font-size: 22px;
+	color: #595d7a;
+}
+
+.plus {
+	position: absolute;
+	top: 995px;
+	right: 30px;
+	width: 143px;
 }
 
 .footernavcontainer a {
@@ -289,6 +327,7 @@ datalist option {
 	position: absolute;
 	top: 1960px;
 	left: 170px;
+	width: 1190px;
 }
 
 .plusreversed2 {
