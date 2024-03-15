@@ -1,6 +1,7 @@
 body {
 	font-family: Poppins, arial;
 	margin: 0;
+	padding-bottom: 200px;
 	width: fit-content;
 }
 
@@ -323,54 +324,19 @@ option {
 	color: rgba(89, 93, 122, 1);
 }
 
-.subscribeRectangle-container {
-	display: inline-block;
-	background-color: #98be1d;
-	position: relative;
-	text-align: center;
-}
-
-.subscribeRectangle-container p {
+.subscribeRectanglecontainer {
 	position: absolute;
-	bottom: 180px;
-	left: 380px;
-	font-size: 22px;
-	font-weight: 600;
-	color: #595d7a;
-	line-height: 36px;
-	inline-size: 590px;
-}
-
-.subscribeRectangle-img {
-	margin-top: 230px;
-	margin-left: 130px;
-	width: 1080px;
-}
-
-input {
-	position: absolute;
-	right: 400px;
-	bottom: 100px;
-	font-size: 13px;
-	font-weight: 600;
-	padding: 30px;
-	width: 380px;
-	border-radius: 12px;
-	border-style: none;
-}
-
-input::before {
-	content: attr("placeholder");
-	background-color: #000000;
-	width: 10px;
-	height: 10px;
+	top: 1960px;
+	left: 170px;
+	width: 1190px;
 }
 
 .plusreversed2 {
 	margin-top: 450px;
 }
 
-.shuri-info-container {
+.shuriinfo {
+	margin-top: 70px;
 	margin-left: 180px;
 	display: grid;
 	grid-template-columns: 146px 146px 146px 146px;
@@ -480,7 +446,7 @@ input::before {
 .lasttext {
 	font-size: 12px;
 	font-weight: 500;
-
+	position: absolute;
 	left: 580px;
 	top: 2650px;
 	color: #5e6282;
