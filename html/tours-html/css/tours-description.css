@@ -1,0 +1,152 @@
+body {
+	font-family: Poppins, arial;
+	margin: 0;
+	width: fit-content;
+	padding-bottom: 1500px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	display: flex;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 81px;
+	margin-left: 160px;
+	font-weight: 500;
+	width: 580px;
+}
+
+a {
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+}
+
+.tours {
+	color: #98be1d;
+}
+
+.shurilogo {
+	width: 89px;
+	height: 80px;
+	margin-top: 55px;
+	margin-left: 150px;
+}
+
+.fablab-container {
+	position: relative;
+	margin-top: 45px;
+	margin-left: 170px;
+}
+
+.fablab-img {
+	width: 980px;
+	border-radius: 15px;
+}
+
+.flabab-tooltips-container {
+	position: absolute;
+	top: 65px;
+	right: -120px;
+}
+
+.flabab-tooltips {
+	background-color: white;
+	display: grid;
+	grid-template-columns: 65px auto;
+	align-items: center;
+	padding: 22px 35px;
+	padding-right: 40px;
+	box-shadow: 3px 3px 32px rgba(89, 93, 122, 0.12);
+	border-radius: 18px;
+	margin-bottom: 24px;
+}
+
+.tooltip-img {
+	width: 55px;
+}
+
+.flabab-tooltips-info {
+	line-height: 20px;
+}
+
+.flabab-tooltips-info-text1 {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.flabab-tooltips-info-text2 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.plus-h {
+	width: 130px;
+	position: absolute;
+	bottom: 40px;
+	left: -148px;
+}
+
+.fablab-title {
+	width: 117%;
+	text-align: center;
+	line-height: 15px;
+	margin-top: 70px;
+}
+
+.fablab-title h3 {
+	font-size: 20px;
+	font-weight: 500;
+	color: rgba(89, 93, 122, 1);
+}
+
+.fablab-title h2 {
+	font-size: 28px;
+	font-weight: 700;
+	color: rgba(48, 48, 48, 1);
+}
+
+.benefit-section1,
+.benefit-section2 {
+	margin-top: 70px;
+	margin-left: 200px;
+}
+
+.benefit-section1,
+.benefit-section2 h3 {
+	color: rgba(152, 190, 29, 1);
+	margin-bottom: 30px;
+}
+
+.benefit-section1,
+.benefit-section2 p {
+	color: rgba(89, 93, 122, 1);
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.benefit-section1 p::before {
+	content: url("/html/tours-html/tours description/pictures/person-tick.svg")
+		" ";
+	vertical-align: sub;
+}
+
+.benefit-section2 {
+	inline-size: 840px;
+}
+
+.benefit-section2 p::before {
+	content: url("/html/tours-html/tours description/pictures/house.svg") " ";
+	vertical-align: sub;
+}
+
+.benefit-section2 p {
+	padding-left: 20px;
+}

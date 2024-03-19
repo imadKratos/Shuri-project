@@ -2,6 +2,7 @@ body {
 	font-family: Poppins, arial;
 	margin: 0;
 	width: fit-content;
+	padding-bottom: 150px;
 }
 
 * {
@@ -63,6 +64,8 @@ a {
 
 .destination-text {
 	position: relative;
+	top: 0;
+	left: 0;
 	border-style: none;
 	background-color: rgba(255, 255, 255, 0.45);
 	border-radius: 8px;
@@ -325,14 +328,14 @@ option {
 
 .subscribeRectangle-container {
 	display: inline-block;
-	background-color: #98be1d;
 	position: relative;
+	top: 230px;
 	text-align: center;
 }
 
 .subscribeRectangle-container p {
 	position: absolute;
-	bottom: 180px;
+	bottom: 170px;
 	left: 380px;
 	font-size: 22px;
 	font-weight: 600;
@@ -342,40 +345,81 @@ option {
 }
 
 .subscribeRectangle-img {
-	margin-top: 230px;
-	margin-left: 130px;
-	width: 1080px;
+	margin-left: 180px;
+	width: 1000px;
+}
+
+.input-container {
+	position: relative;
+	top: 15px;
 }
 
 input {
 	position: absolute;
 	right: 400px;
 	bottom: 100px;
-	font-size: 13px;
-	font-weight: 600;
-	padding: 30px;
+	font-family: Poppins, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 25px 68px;
 	width: 380px;
 	border-radius: 12px;
 	border-style: none;
 }
 
-input::before {
-	content: attr("placeholder");
-	background-color: #000000;
-	width: 10px;
-	height: 10px;
+::placeholder {
+	color: black;
+}
+
+.input-icon {
+	position: absolute;
+	top: -152px;
+	right: 725px;
+}
+
+.input-container button {
+	background-color: #98be1d;
+	color: white;
+	width: 160px;
+	padding: 23px;
+	border-radius: 12px;
+	border-style: none;
+	font-family: Poppins, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	position: absolute;
+	top: -170px;
+	right: 220px;
+	cursor: pointer;
+}
+
+.circle-lines1 {
+	position: absolute;
+	top: 0;
+	right: 5px;
+}
+
+.circle-lines2 {
+	width: 200px;
+	position: absolute;
+	top: 164px;
+	right: 800px;
 }
 
 .plusreversed2 {
-	margin-top: 450px;
+	position: absolute;
+	top: 150px;
+	left: 15px;
 }
 
 .shuri-info-container {
+	margin-top: 350px;
 	margin-left: 180px;
 	display: grid;
 	grid-template-columns: 146px 146px 146px 146px;
 	column-gap: 160px;
 	align-self: center;
+	position: relative;
 }
 
 .Shurilogofooter {
@@ -411,6 +455,7 @@ input::before {
 }
 
 .companysubheadings {
+	margin-top: -13px;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 35px;
@@ -418,7 +463,7 @@ input::before {
 }
 
 .contactsocialsinfo {
-	margin-top: 35px;
+	margin-top: 30px;
 	line-height: 29px;
 }
 
@@ -480,8 +525,8 @@ input::before {
 .lasttext {
 	font-size: 12px;
 	font-weight: 500;
-
-	left: 580px;
-	top: 2650px;
+	position: absolute;
+	bottom: -80px;
+	left: 390px;
 	color: #5e6282;
 }
