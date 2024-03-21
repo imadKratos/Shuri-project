@@ -2,7 +2,8 @@ body {
 	font-family: Poppins, arial;
 	margin: 0;
 	width: fit-content;
-	padding-bottom: 1500px;
+	padding-bottom: 200px;
+	overflow-x: hidden;
 }
 
 * {
@@ -119,8 +120,8 @@ a {
 	margin-left: 200px;
 }
 
-.benefit-section1,
-.benefit-section2 h3 {
+.benefit-section1 h4,
+.benefit-section2 h4 {
 	color: rgba(152, 190, 29, 1);
 	margin-bottom: 30px;
 }
@@ -133,20 +134,228 @@ a {
 }
 
 .benefit-section1 p::before {
-	content: url("/html/tours-html/tours description/pictures/person-tick.svg")
+	content: url("/html/tours-html/tours description/pictures/svgs/person-tick.svg")
 		" ";
 	vertical-align: sub;
 }
 
 .benefit-section2 {
-	inline-size: 840px;
+	inline-size: 885px;
+}
+
+.benefit-section2 > p {
+	position: relative;
+	margin-left: 40px;
 }
 
 .benefit-section2 p::before {
-	content: url("/html/tours-html/tours description/pictures/house.svg") " ";
+	content: url("/html/tours-html/tours description/pictures/svgs/house.svg") " ";
 	vertical-align: sub;
+	position: absolute;
+	left: -35px;
 }
 
-.benefit-section2 p {
-	padding-left: 20px;
+.rectangular-imgscroll-section {
+	display: inline-block;
+	background: rgba(249, 247, 254, 1);
+	margin-top: 50px;
+	margin-left: 200px;
+	position: relative;
+}
+
+.rectangular-imgscroll-container {
+	margin: 0 20px;
+	padding: 30px 60px;
+}
+
+.imgscroll {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	margin-left: 10px;
+}
+
+.left-scrollarrow-container {
+	position: absolute;
+	top: 108px;
+	left: -12px;
+}
+
+.right-scrollarrow-container {
+	position: absolute;
+	top: 108px;
+	right: -12px;
+}
+
+.html-entity {
+	font-size: 32px;
+	color: rgba(89, 93, 122, 1);
+	background: white;
+	box-shadow: 1px 3px 4px rgba(94, 98, 130, 0.23);
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.request-button-container {
+	position: relative;
+}
+
+.request-button {
+	background: rgba(152, 190, 29, 1);
+	border-radius: 15px;
+	color: white;
+	border-style: none;
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+	bottom: -120px;
+	left: 5px;
+	width: 1000px;
+	padding: 30px 20px;
+	cursor: pointer;
+}
+
+.small-circles {
+	position: absolute;
+	top: 15px;
+	left: -13px;
+	width: 100px;
+	z-index: 50;
+}
+
+.small-circles2 {
+	position: absolute;
+	top: 45px;
+	right: -13px;
+	width: 100px;
+	z-index: 50;
+}
+.plus-h-4 {
+	margin: 0;
+	position: relative;
+	top: 400px;
+}
+
+.shuri-info-container {
+	margin-top: 350px;
+	margin-left: 180px;
+	display: grid;
+	grid-template-columns: 146px 146px 146px 146px;
+	column-gap: 160px;
+	align-self: center;
+	position: relative;
+}
+
+.Shurilogofooter {
+	width: 146px;
+}
+
+.Shurilogofootertext {
+	margin-top: 20px;
+	margin-left: 7px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #5e6282;
+}
+.Companycontainer {
+	margin-left: -35px;
+}
+
+.Contactcontainer {
+	margin-left: -75px;
+}
+
+.Companycontainer,
+.Contactcontainer,
+.socialscontainer {
+	margin-top: 18px;
+}
+
+.companyname {
+	font-size: 21px;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 35px;
+}
+
+.companysubheadings {
+	margin-top: -13px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 35px;
+	color: #5e6282;
+}
+
+.contactsocialsinfo {
+	margin-top: 30px;
+	line-height: 29px;
+}
+
+.companycontact {
+	font-size: 21px;
+	font-weight: 700;
+	color: black;
+}
+
+.emailtext,
+.telephonenumber {
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 10px;
+	color: #5e6282;
+}
+
+.telephonenumber {
+	white-space: nowrap;
+}
+
+.infocontainer {
+	display: flex;
+	line-height: 29px;
+}
+
+.socialscontainer {
+	margin-left: -70px;
+}
+
+.companysocials {
+	font-size: 21px;
+	font-weight: 700;
+	color: black;
+}
+
+.socialsgrid1 {
+	display: flex;
+}
+
+.socialsgrid1text {
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 10px;
+	color: #5e6282;
+}
+
+.socialsgrid1number {
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 2px;
+	color: #5e6282;
+}
+
+.socialsicon {
+	margin-left: 3px;
+}
+
+.lasttext {
+	font-size: 12px;
+	font-weight: 500;
+	position: absolute;
+	bottom: -80px;
+	left: 390px;
+	color: #5e6282;
 }
