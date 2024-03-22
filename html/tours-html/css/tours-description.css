@@ -2,7 +2,7 @@ body {
 	font-family: Poppins, arial;
 	margin: 0;
 	width: fit-content;
-	padding-bottom: 200px;
+	padding-bottom: 150px;
 	overflow-x: hidden;
 }
 
@@ -44,18 +44,18 @@ a {
 .fablab-container {
 	position: relative;
 	margin-top: 45px;
-	margin-left: 170px;
+	margin-left: 185px;
 }
 
 .fablab-img {
-	width: 980px;
+	width: 950px;
 	border-radius: 15px;
 }
 
 .flabab-tooltips-container {
 	position: absolute;
 	top: 65px;
-	right: -120px;
+	right: 20px;
 }
 
 .flabab-tooltips {
@@ -236,14 +236,14 @@ a {
 	z-index: 50;
 }
 .plus-h-4 {
-	margin: 0;
 	position: relative;
-	top: 400px;
+	top: 130px;
+	left: 15px;
 }
 
 .shuri-info-container {
-	margin-top: 350px;
-	margin-left: 180px;
+	margin-top: 80px;
+	margin-left: 210px;
 	display: grid;
 	grid-template-columns: 146px 146px 146px 146px;
 	column-gap: 160px;

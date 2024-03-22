@@ -193,7 +193,7 @@ option {
 	display: grid;
 	grid-template-columns: 310px 310px 310px;
 	justify-content: center;
-	column-gap: 25px;
+	column-gap: 20px;
 	row-gap: 45px;
 	margin-top: -65px;
 	margin-left: 95px;
@@ -257,7 +257,11 @@ option {
 .viewdetailsbuttoncontainer {
 	display: flex;
 	justify-content: center;
-	margin-left: -12px;
+	margin-left: px;
+}
+
+.viewdetailsbuttoncontainer > a {
+	width: 100%;
 }
 
 .viewdetailsbutton {
@@ -268,10 +272,9 @@ option {
 	color: rgb(166, 209, 24);
 	font-size: 16px;
 	font-weight: 600;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin: 40px -5px;
 	padding: 20px;
-	width: 90%;
+	width: 100%;
 	transition: 1s;
 }
 

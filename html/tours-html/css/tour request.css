@@ -1,0 +1,134 @@
+body {
+	font-family: Poppins, arial;
+	width: fit-content;
+	/* padding-bottom: 1500px; */
+	/*overflow-x: hidden;*/
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	display: flex;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 81px;
+	margin-left: 160px;
+	font-weight: 500;
+	width: 580px;
+}
+
+a {
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+}
+
+.tours {
+	color: #98be1d;
+}
+
+.shurilogo {
+	width: 89px;
+	height: 80px;
+	margin-top: 55px;
+	margin-left: 150px;
+}
+
+.handshake-img-container {
+	background-image: url(../Tour-request/pictures/handshake\ 1.png);
+	border-radius: 15px;
+	height: 202px;
+	width: 1090px;
+	margin-top: 60px;
+	margin-left: 130px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.handshake-img-container > p {
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+	height: 202px;
+	width: 1090px;
+	margin: 0;
+	padding-top: 80px;
+	background-color: rgba(48, 48, 48, 0.59);
+	text-align: center;
+}
+
+.handshake-img {
+	background-color: rgba(48, 48, 48, 0.59);
+}
+
+.form-container {
+	margin-top: 50px;
+	margin-left: 150px;
+}
+
+.form-container h2 {
+	font-size: 28px;
+	color: rgba(48, 48, 48, 1);
+}
+
+form div {
+	margin-right: 50px;
+}
+
+.forms {
+	display: flex;
+	margin-bottom: 35px;
+}
+
+label {
+	font-size: 16px;
+	font-weight: 600;
+	color: rgba(63, 65, 82, 1);
+}
+
+input {
+	border: 1px solid rgba(212, 213, 221, 1);
+	border-radius: 8px;
+	padding: 20px 30px;
+	width: 480px;
+	margin-top: 10px;
+}
+
+::placeholder {
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(89, 93, 122, 0.71);
+}
+
+input:focus {
+	outline: none;
+}
+
+.telephone-container {
+	position: relative;
+}
+
+.telephone-container input {
+	padding-left: 90px;
+}
+
+.telephone-container div {
+	position: absolute;
+	left: 22px;
+	bottom: 16px;
+}
+
+select {
+	border-style: none;
+}
+
+option {
+	color: #fffbf8;
+	width: 10px;
+}
