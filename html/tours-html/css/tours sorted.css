@@ -1,0 +1,222 @@
+body {
+	font-family: Poppins, arial;
+	width: fit-content;
+	padding-bottom: 700px;
+	/*overflow-x: hidden;*/
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	display: flex;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 81px;
+	margin-left: 160px;
+	font-weight: 500;
+	width: 580px;
+}
+
+a {
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+}
+
+.tours {
+	color: #98be1d;
+}
+
+.shurilogo {
+	width: 89px;
+	height: 80px;
+	margin-top: 55px;
+	margin-left: 150px;
+}
+
+.tourbuscontainer {
+	position: relative;
+	top: 35px;
+	left: 120px;
+	display: inline-block;
+}
+
+.tourbusimg {
+	width: 1050px;
+}
+
+.tourbusboxtooltip-container {
+	background-color: rgba(48, 48, 48, 0.6);
+	width: 1050px;
+	height: 185px;
+	border-radius: 12px;
+	position: absolute;
+	top: 0;
+	backdrop-filter: blur(7px);
+}
+
+.tourbusboxtooltip {
+	display: flex;
+	position: absolute;
+	top: 70px;
+	left: 180px;
+}
+
+.tooltipicon {
+	width: 24px;
+}
+
+.tourbusboxtext {
+	margin-left: 12px;
+}
+
+.destination-text {
+	position: relative;
+	top: 0;
+	left: 0;
+	border-style: none;
+	background-color: rgba(255, 255, 255, 0.45);
+	border-radius: 8px;
+	padding: 20px 50px;
+	width: 290px;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.destination-text:focus {
+	height: 55px;
+}
+
+input[type="text"]::placeholder {
+	color: rgb(255, 255, 255);
+}
+
+input:focus {
+	border: 1px solid rgba(255, 255, 255, 0.027);
+	outline: none;
+}
+
+.tooltipicon2 {
+	position: absolute;
+	top: 15px;
+	left: 18px;
+}
+
+form {
+	margin-left: 10px;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.45);
+	border-radius: 8px;
+	width: 290px;
+}
+
+form label {
+	font-size: 13px;
+	color: white;
+	position: absolute;
+	top: 15px;
+	left: 55px;
+}
+
+form select {
+	position: absolute;
+	top: 18px;
+	left: 255px;
+	border-style: none;
+	background: none;
+	color: rgba(0, 0, 0, 0);
+	width: 10px;
+	cursor: pointer;
+	appearance: none;
+	padding: 0 5px;
+}
+
+.select-list option {
+	color: #141413;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 18px;
+	cursor: pointer;
+	padding-top: 15px;
+}
+
+option[disabled] {
+	color: rgba(89, 93, 122, 0.17);
+}
+
+form select:focus {
+	outline: none;
+}
+
+option {
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.selectsvg {
+	position: absolute;
+	top: 20px;
+	left: 255px;
+	width: 15px;
+}
+
+.tooltipicon {
+	position: absolute;
+	top: 15px;
+	left: 22px;
+}
+
+.searchbuttoncontainer {
+	margin-left: 15px;
+}
+
+.greenbutton {
+	background-color: #98be1d;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 8px;
+	border-style: none;
+	padding: 15px 20px;
+	width: 174px;
+	font-family: Poppins, arial;
+	cursor: pointer;
+}
+
+.science-tours-heading {
+	text-align: center;
+	line-height: 10px;
+	margin-top: 100px;
+	margin-left: 250px;
+}
+
+.science-tours-heading h3 {
+	color: rgba(89, 93, 122, 1);
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.science-tours-heading h2 {
+	color: rgba(48, 48, 48, 1);
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.science-selections {
+	background-color: #98be1d;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 100px;
+}
+
+.science-selections p {
+	background-color: white;
+	padding: 14px 30px;
+}

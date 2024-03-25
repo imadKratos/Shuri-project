@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tours sorted</title>
+  <link rel="stylesheet" href="../css/tours sorted.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div>
+      <img src="./pictures/svgs/Shuritourslogo.svg" class="shurilogo" />
+    </div>
+    <nav class="navigation">
+      <a href="/html/Landing page.html">Home</a>
+      <a href="./Tours page.html" class="tours">Tours</a>
+      <a href="/html/Health&safety.html">Health & Safety</a>
+      <a href="/html/About Us.html">About Us</a>
+      <a href="/html/Contact us.html">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="tourbuscontainer">
+        <img src="./pictures/cropped tour bus.png" class="tourbusimg" />
+        <div class="tourbusboxtooltip-container">
+          <div class="tourbusboxtooltip">
+            <div>
+              <input type="text" placeholder="Destination" class="destination-text">
+              <img src="./pictures/svgs/location.svg" class="tooltipicon2" />
+              </input>
+            </div>
+            <form action="/action_page.php" method="get">
+              <img src="./pictures/svgs/driving.svg" class="tooltipicon" />
+              <label for="tours">Tour type</label>
+              <img src="/html/Tours pictures/Svgs/pointingdown.svg" class="selectsvg">
+              <div class="select-list">
+                <select name="tour">
+                  <option value="All">all</option>
+                  <option disabled>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</option>
+                  <option value="sciences">sciences</option>
+                  <option disabled>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</option>
+                  <option value="Humanities">Humanities</option>
+                  <option disabled>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</option>
+                  <option value="Languages">Languages</option>
+                  <option disabled>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</option>
+                </select>
+              </div>
+            </form>
+            <div class="searchbuttoncontainer">
+              <button class="greenbutton">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="science-tours-heading">
+        <h3>Tours/science</h3>
+        <h2>science Tours</h2>
+      </div>
+      <div class="science-selections">
+        <p>PCB</p>
+        <p>PCM</p>
+        <p>MCB</p>
+        <p>MPG</p>
+        <p>MCE</p>
+        <p>MPC</p>
+        <p>BCG</p>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
