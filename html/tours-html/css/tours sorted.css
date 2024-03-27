@@ -1,7 +1,7 @@
 body {
 	font-family: Poppins, arial;
 	width: fit-content;
-	padding-bottom: 700px;
+	padding-bottom: 200px;
 	/*overflow-x: hidden;*/
 }
 
@@ -90,7 +90,7 @@ a {
 }
 
 .destination-text:focus {
-	height: 55px;
+	height: 60px;
 }
 
 input[type="text"]::placeholder {
@@ -193,7 +193,7 @@ option {
 	text-align: center;
 	line-height: 10px;
 	margin-top: 100px;
-	margin-left: 250px;
+	margin-left: 80px;
 }
 
 .science-tours-heading h3 {
@@ -209,14 +209,417 @@ option {
 }
 
 .science-selections {
-	background-color: #98be1d;
+	position: relative;
+	background-color: #ffffff;
 	width: 70%;
 	display: flex;
 	justify-content: space-between;
-	margin-left: 100px;
+	margin-left: 195px;
 }
 
 .science-selections p {
+	margin-left: 8px;
+	background-color: #ffffff;
+	color: rgba(89, 93, 122, 1);
+	border: 1.5px solid rgba(89, 93, 122, 0.1);
+	border-radius: 10px;
+	padding: 14px 35px;
+	font-size: 18px;
+	font-weight: 600;
+	transition: color 0.35s;
+}
+
+.science-selections p:hover {
+	cursor: pointer;
+	color: white;
+	background-color: #98be1d;
+}
+
+.classes {
+	position: relative;
+}
+
+.classes label {
+	position: absolute;
+	left: 15px;
+	font-size: 18px;
+	font-weight: 600;
+	color: rgba(89, 93, 122, 1);
+	/* background-color: #ffffff; */
+}
+
+.classes select {
+	appearance: none;
+	border-style: none;
+	padding-left: 8px;
+}
+
+.classes select:focus {
+	outline: none;
+}
+
+.html-entity {
+	position: absolute;
+	right: -75px;
+	top: 25px;
+	font-size: 28px;
+	color: rgba(89, 93, 122, 1);
+	background: rgb(255, 255, 255);
+	box-shadow: 1px 3px 4px rgba(94, 98, 130, 0.23);
+	border-radius: 20px;
+	width: 37px;
+	height: 37px;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	cursor: pointer;
+}
+
+.plus-h {
+	margin-top: -65px;
+	margin-left: 15px;
+	width: 120px;
+}
+
+.Destinationtourscontainer {
+	display: grid;
+	grid-template-columns: 325px 325px 325px;
+	justify-content: center;
+	column-gap: 20px;
+	row-gap: 45px;
+	margin-top: -40px;
+	margin-left: 75px;
+	position: relative;
+}
+
+.Destinationgrid {
+	box-shadow: 1px 10px 20px rgba(139, 139, 139, 0.118);
+	border-radius: 20px;
+}
+
+.Destinationimg {
+	width: 325px;
+	height: 270px;
+	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.Destinationinfo {
+	margin-top: 25px;
+	margin-left: 28px;
+	padding-right: 18px;
+}
+
+.Destinationinfo1 {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.Destinationinfo1 span {
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.Destinationinfo1a {
+	display: flex;
+	align-items: center;
+}
+
+.Destinationinfo1text {
+	font-size: 13px;
+	font-weight: 600;
+	margin-left: 5px;
+}
+
+.Destinationinfo1text2 {
+	font-size: 13px;
+	font-weight: 700;
+	margin-top: 3px;
+}
+
+.Destinationinfo2 {
+	width: 220px;
+	font-size: 13px;
+	font-weight: 400;
+	margin-top: 6px;
+}
+
+.viewdetailsbuttoncontainer {
+	display: flex;
+	justify-content: center;
+	margin-left: px;
+}
+
+.viewdetailsbuttoncontainer > a {
+	width: 100%;
+}
+
+.viewdetailsbutton {
+	border-style: none;
+	border: 1px solid rgb(166, 209, 24);
 	background-color: white;
-	padding: 14px 30px;
+	border-radius: 13px;
+	color: rgb(166, 209, 24);
+	font-size: 16px;
+	font-weight: 600;
+	margin: 40px -5px;
+	padding: 20px;
+	width: 100%;
+	transition: 1s;
+}
+
+.viewdetailsbutton:hover {
+	cursor: pointer;
+	background-color: rgb(166, 209, 24);
+	color: white;
+}
+
+.viewdetailsbutton2 {
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(166, 209, 24);
+	border-radius: 13px;
+	color: rgb(166, 209, 24);
+	padding: 20px;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.Destinationnavcontainer {
+	background-color: rgba(249, 247, 254, 1);
+	position: absolute;
+	left: 480px;
+	bottom: -150px;
+	width: 264px;
+	height: 70px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px 25px;
+}
+
+.Destinationnavcontainer a {
+	font-size: 22px;
+	color: #595d7a;
+	cursor: pointer;
+}
+
+.plus-h2 {
+	position: absolute;
+	top: 480px;
+	right: -70px;
+	width: 130px;
+	transform: rotate(180deg);
+}
+
+.subscribeRectangle-container {
+	display: inline-block;
+	position: relative;
+	top: 230px;
+	text-align: center;
+}
+
+.subscribeRectangle-container p {
+	position: absolute;
+	bottom: 180px;
+	left: 380px;
+	font-size: 22px;
+	font-weight: 600;
+	color: #595d7a;
+	line-height: 36px;
+	inline-size: 590px;
+}
+
+.subscribeRectangle-img {
+	margin-left: 180px;
+	width: 1000px;
+}
+
+.input-container {
+	position: relative;
+	top: 30px;
+}
+
+input {
+	position: absolute;
+	right: 400px;
+	bottom: 100px;
+	font-family: Poppins, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 25px 68px;
+	width: 380px;
+	border-radius: 12px;
+	border-style: none;
+}
+
+::placeholder {
+	color: black;
+}
+
+.input-icon {
+	position: absolute;
+	top: -152px;
+	right: 725px;
+}
+
+.input-container button {
+	background-color: #98be1d;
+	color: white;
+	width: 160px;
+	padding: 23px;
+	border-radius: 12px;
+	border-style: none;
+	font-family: Poppins, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	position: absolute;
+	top: -170px;
+	right: 220px;
+	cursor: pointer;
+}
+
+.circle-lines1 {
+	position: absolute;
+	top: 0;
+	right: 5px;
+}
+
+.circle-lines2 {
+	width: 200px;
+	position: absolute;
+	top: 164px;
+	right: 800px;
+}
+
+.plus-h-4 {
+	position: absolute;
+	top: 130px;
+	left: 0;
+	width: 130px;
+}
+
+.shuri-info-container {
+	margin-top: 350px;
+	margin-left: 180px;
+	display: grid;
+	grid-template-columns: 146px 146px 146px 146px;
+	column-gap: 160px;
+	align-self: center;
+	position: relative;
+}
+
+.Shurilogofooter {
+	width: 146px;
+}
+
+.Shurilogofootertext {
+	margin-top: 20px;
+	margin-left: 7px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #5e6282;
+}
+
+.Companycontainer {
+	margin-left: -45px;
+}
+
+.Contactcontainer {
+	margin-left: -125px;
+}
+
+.socialscontainer {
+	margin-left: -150px;
+}
+
+.Companycontainer,
+.Contactcontainer,
+.socialscontainer {
+	margin-top: 18px;
+}
+
+.companyname {
+	font-size: 21px;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 35px;
+}
+
+.companysubheadings {
+	margin-top: -13px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 35px;
+	color: #5e6282;
+}
+
+.contactsocialsinfo {
+	margin-top: 30px;
+	line-height: 29px;
+}
+
+.companycontact {
+	font-size: 21px;
+	font-weight: 700;
+	color: black;
+}
+
+.emailtext,
+.telephonenumber {
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 10px;
+	color: #5e6282;
+}
+
+.telephonenumber {
+	white-space: nowrap;
+}
+
+.infocontainer {
+	display: flex;
+	line-height: 29px;
+}
+
+.companysocials {
+	font-size: 21px;
+	font-weight: 700;
+	color: black;
+}
+
+.socialsgrid1 {
+	display: flex;
+}
+
+.socialsgrid1text {
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 10px;
+	color: #5e6282;
+}
+
+.socialsgrid1number {
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 2px;
+	color: #5e6282;
+}
+
+.socialsicon {
+	margin-left: 3px;
+}
+
+.lasttext {
+	font-size: 12px;
+	font-weight: 500;
+	position: absolute;
+	bottom: -80px;
+	left: 390px;
+	color: #5e6282;
 }

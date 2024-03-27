@@ -123,6 +123,19 @@ form select {
 	padding: 0 5px;
 }
 
+.select-list option {
+	color: #141413;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 18px;
+	cursor: pointer;
+	padding-top: 15px;
+}
+
+option[disabled] {
+	color: rgba(89, 93, 122, 0.17);
+}
+
 form select:focus {
 	outline: none;
 }
@@ -185,13 +198,13 @@ option {
 
 .plusreversed {
 	margin-top: -45px;
-	margin-left: 25px;
-	width: 143px;
+	margin-left: 20px;
+	width: 130px;
 }
 
 .Destinationtourscontainer {
 	display: grid;
-	grid-template-columns: 310px 310px 310px;
+	grid-template-columns: 325px 325px 325px;
 	justify-content: center;
 	column-gap: 25px;
 	row-gap: 45px;
@@ -205,8 +218,8 @@ option {
 }
 
 .Destinationimg {
-	width: 310px;
-	height: 200px;
+	width: 325px;
+	height: 270px;
 	object-fit: cover;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
@@ -297,7 +310,7 @@ option {
 .Destinationnavcontainer {
 	background-color: rgba(249, 247, 254, 1);
 	position: absolute;
-	top: 1590px;
+	top: 1700px;
 	left: 550px;
 	width: 264px;
 	height: 70px;
@@ -317,7 +330,7 @@ option {
 	position: absolute;
 	top: 995px;
 	right: 30px;
-	width: 143px;
+	width: 130px;
 }
 
 .footernavcontainer a {

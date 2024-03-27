@@ -37,14 +37,20 @@
 					<img src="./Tours pictures/Svgs/driving.svg" class="tooltipicon" />
 					<label for="tours">Tour type</label>
 					<img src="/html/Tours pictures/Svgs/pointingdown.svg" class="selectsvg">
-					<select id="tours" name="tours">
-						<datalist id="tours">
-							<option value="All">All</option>
-							<option value="sciences">Sciences</option>
-							<option value="humanities">Humanities</option>
-							<option value="languages">Languages</option>
-						</datalist>
-					</select>
+					<div class="select-list">
+						<select name="rw" id="rw">
+							<option value="All">all</option>
+							<option disabled>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</option>
+							<a href="./tours-html/Tours-sorted/Tours sorted.html">
+								<option value="sciences">sciences</option>
+							</a>
+							<option disabled>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</option>
+							<option value="Humanities">Humanities</option>
+							<option disabled>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</option>
+							<option value="Languages">Languages</option>
+							<option disabled>&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</option>
+						</select>
+					</div>
 				</form>
 				<div class="searchbuttoncontainer">
 					<button class="greenbutton">Search</button>
