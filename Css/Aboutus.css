@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding-bottom: 100px;
 	width: fit-content;
+	overflow-x: hidden;
 }
 
 * {
@@ -585,7 +586,6 @@ a {
 }
 
 .footer {
-	/* margin-top: 150px; */
 	margin-left: 50px;
 }
 
@@ -597,7 +597,7 @@ a {
 	height: 298px;
 	border-radius: 50px;
 	background-color: rgba(249, 247, 254, 1);
-	margin-bottom: 1000px;
+	margin-bottom: 500px;
 }
 
 .circle-lines1 {
@@ -623,19 +623,29 @@ a {
 }
 
 .inquiries-container input {
+	background-image: url(/landmark.svg);
+	background-repeat: no-repeat;
+	background-position: 4% 12px;
 	position: absolute;
 	top: 150px;
 	left: 250px;
 	font-size: 18px;
 	font-weight: 500;
-	padding: 25px 50px;
-	width: 630px;
+	padding: 25px 80px;
+	width: 680px;
 	border-radius: 10px;
 	border-style: none;
 }
 
+.inquiries-container input:focus {
+	outline: none;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(89, 93, 122, 1);
+}
+
 .shuriinfo {
-	margin-top: 70px;
+	margin-top: 10px;
 	margin-left: 180px;
 	display: grid;
 	grid-template-columns: 146px 146px 146px 146px;
