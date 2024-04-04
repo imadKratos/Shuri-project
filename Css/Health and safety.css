@@ -561,6 +561,12 @@ a {
 	color: #5e6282;
 }
 
+.companysubheadings a {
+	font-size: 18px;
+	font-weight: 500;
+	color: #5e6282;
+}
+
 .contactsocialsinfo {
 	margin-top: 35px;
 	line-height: 29px;
